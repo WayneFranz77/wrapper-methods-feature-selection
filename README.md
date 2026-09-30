@@ -20,3 +20,16 @@ Obesity Levels Based on Eating Habits and Physical Condition
 - scikit-learn
 - mlxtend
 - matplotlib
+
+## Results
+
+| Model | Accuracy |
+|---------|----------|
+| Logistic Regression | 76.60% |
+| Sequential Forward Selection | 78.35% |
+| Sequential Backward Floating Selection | 78.30% |
+| Recursive Feature Elimination | 76.79% |
+
+### Best Performing Model
+
+Sequential Forward Selection (SFS) achieved the highest accuracy of 78.35% while reducing the number of features from 18 to 9.
